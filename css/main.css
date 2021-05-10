@@ -1,12 +1,52 @@
 :root {
   --main-bg-color: #444444;
   --main-font-color: #ffffff;
+  --secondary-font-color: #eece1a;
   }
+
+*{
+  box-sizing: border-box;
+}
 
   body{
+    position: absolute;
     background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
   }
 
-  h1{
-    color: var(--main-font-color);
+  h1, h2, h3{
+    margin: 0;
+    font-weight: 400;
+  }
+
+  h1.lg-heading{
+    font-size: 6rem;
+  }
+
+  a{
+    color:var(--main-font-color);
+    text-decoration: none;
+  }
+
+  header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .text-scondary{
+    color: var(--secondary-font-color);
+  }
+
+  main{
+    padding: 4rem;
+    height: 100%;
+  }
+
+  #home{
+    margin-top: 20vh;
   }
