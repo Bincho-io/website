@@ -95,9 +95,9 @@ main {
 
 .menu-branding, .menu-nav{
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   float: left;
   width: 50%;
   height: 100vh;
@@ -126,9 +126,19 @@ main {
 .portrait{
   width: 150px;
   height: 150px;
+  margin: auto;
   background-color: #222222;
   border-radius: 50%;
   border: solid 5px #ffa500;
+}
+
+.nav-item {
+  width: 200px;
+  height: auto;
+  border: 1px solid #999;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 /* small */
