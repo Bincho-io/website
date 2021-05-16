@@ -134,11 +134,12 @@ main {
 
 .nav-item {
   width: 200px;
-  height: auto;
+  height: 225px;
   border: 1px solid #999;
   border-radius: 10px;
   text-align: center;
   padding: 10px;
+  font-size: 1.5rem;
 }
 
 /* small */
